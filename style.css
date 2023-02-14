@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: poppins, sans-serif;
+    
+}
+
+body {
+    background-color: #ffffff;
+    color: black;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.container {
+    margin-top: 10px;
+    font-size: 20px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+img[alt="brand-logo"] {
+    position:absolute;
+    top: 5px;
+    margin: 50px;
+    width: 120px;
+    
+} 
+
+
+.list {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 60px;
+}
+
+.list-item {
+     position: relative;
+     right: 90px;
+     top: 50px;
+     
+}
+
+/*.navbar-container > div:nth-child(2) {
+    position: relative;
+    left: 50px; 
+    top: 50px;
+    
+    
+    
+}
+
+.navbar-container > div:nth-child(3) {
+    position: absolute;
+    left: 1400px;
+    top: 50px;
+    
+}
+*/
+
+
+
+/* .grow-list {
+    position: absolute;
+    
+}
+ 
+.list {
+    list-style-type: none;
+    
+}
+
+.list-item:nth-child(1){
+    position: absolute;
+    left: 200px;
+
+}
+
+.list-item:nth-child(2){
+    position: absolute;
+    left: 300px;
+
+}
+
+.list-item:nth-child(3){
+    position: absolute;
+    left: 400px;
+
+}
+
+.list-item:nth-child(4){
+    position: absolute;
+    left: 550px;
+
+}
+.list-item:nth-child(5){
+    position: absolute;
+    left: 700px;
+
+} */
+
+
+.button-group  {
+    position: relative;
+    right: 120px;
+    top: 30px;
+    
+}
+
+.nav-button {
+    position: absolute;
+    padding: 10px 15px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: aqua;
+    top: 5px ;
+    right:20px;
+}
+
+
+
+.banner-container {
+    position: relative;
+    text-align: center;
+
+    
+}
+
+.heading-text {
+    position:absolute;
+    top: 200px;
+    left:-20px;
+    font-size: 60px;
+    width: 560px;
+    color: darkmagenta;
+    
+}
+
+span, h1 {
+    color: blueviolet;
+}
+
+.description {
+    position: absolute;
+    top: 490px;
+    left: 20px;
+    width: 500px;
+}
+
+.banner-container .nav-button btn:only-child(1) {
+    position: absolute;
+    top: 400px;
+
+} 
+  
+img[alt="illustration"]{
+    margin-left: 300px;
+    margin-top: 100px;
+    width: 800px;
+}
+
+.btn{
+    background-color: rgb(98, 26, 230);
+    top: 600px;
+    left: 180px;
+}  
